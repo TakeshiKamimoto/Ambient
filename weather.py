@@ -5,7 +5,7 @@ import weathernewsdata
 import webpressdata
 
 chID = 25204
-wkey = '7b84d86c582bef4d'
+wkey = ''  #your key
 
 am = ambient.Ambient(chID, wkey)
 
