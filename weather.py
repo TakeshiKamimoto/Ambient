@@ -4,8 +4,8 @@ import bme280_sample
 import weathernewsdata
 import webpressdata
 
-chID = 25204
-wkey = ''  #your key
+chID = 25204 #Channel ID specified by Ambient
+wkey = 'xxxxxxxxxxxxxxxx'  #your user key
 
 am = ambient.Ambient(chID, wkey)
 
